@@ -6,19 +6,13 @@
 		<string>com.ideasftw.bing-wallpaper</string>
 		<key>ProgramArguments</key>
 		<array>
-			<string>/bin/bash</string>
-			<string>/Users/username/Pictures/bing-wallpaper.sh</string>
+			<string>/Users/kk/Pictures/Bing-Wallpaper.app</string>
 		</array>
 		<key>LowPriorityIO</key>
 		<true/>
 		<key>Nice</key>
 		<integer>1</integer>
-		<key>StartCalendarInterval</key>
-		<dict>
-			<key>Hour</key>
-			<integer>10</integer>
-			<key>Minute</key>
-			<integer>0</integer>
-		</dict>
+		<key>StartInterval</key>
+		<integer>86400</integer>
 	</dict>
 </plist>

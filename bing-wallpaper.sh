@@ -10,8 +10,8 @@ mkdir -p $PICTURE_DIR
 #     grep -Eo "g_img={url: \".*?\"" | \
 #     sed -e "s/g_img={url: \"\([^']*\)\".*/\1/" | \
 #     sed -e "s/\\\//g") )
-urls=( $(curl -s http://cn.bing.com | \
-    sed -En "s/.*g_img={url: *[\"'](http.*jpg)[\"'],id.*/\1/p" | \
+urls=( $(curl -s http://www.bing.com | \
+    sed -En "s/.*g_img={url: *[\"'](.*jpg)[\"'],id.*/\1/p" | \
     sed -e "s/\\\//g") )
 
 for p in ${urls[@]}; do
@@ -19,7 +19,7 @@ for p in ${urls[@]}; do
     filename=$(echo $p|sed -e "s/.*\/\(.*\)/\1/")
     if [ ! -f $PICTURE_DIR/$filename ]; then
         echo "Downloading: $filename ..."
-        curl -Lo "$PICTURE_DIR/$filename" $p
+        curl -Lo "$PICTURE_DIR/$filename" "http://cn.bing.com/${p}"
     else
         echo "Skipping: $filename ..."
     fi
