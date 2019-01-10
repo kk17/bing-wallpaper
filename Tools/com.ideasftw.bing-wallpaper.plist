@@ -6,13 +6,28 @@
 		<string>com.ideasftw.bing-wallpaper</string>
 		<key>ProgramArguments</key>
 		<array>
-			<string>/Users/kk/Pictures/Bing-Wallpaper.app</string>
+			<string>/usr/bin/open</string>
+			<string>-W</string>
+			<string>/Users/zhike/Applications/bing-wallpaper/Tools/BingWallpaper.app</string>
 		</array>
+		<key>StandardErrorPath</key>
+		<string>/tmp/com.ideasftw.bing-wallpaper.plist.err</string>
+		<key>StandardOutPath</key>
+		<string>/tmp/com.ideasftw.bing-wallpaper.plist.out</string>
 		<key>LowPriorityIO</key>
 		<true/>
 		<key>Nice</key>
 		<integer>1</integer>
-		<key>StartInterval</key>
-		<integer>86400</integer>
+		<key>RunAtLoad</key>
+		<true/>
+		<key>StartCalendarInterval</key>
+    	<array>
+    	    <dict>
+    	        <key>Hour</key>
+    	        <integer>10</integer>
+    	        <key>Minute</key>
+    	        <integer>30</integer>
+    	    </dict>
+    	</array>
 	</dict>
 </plist>

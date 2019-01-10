@@ -49,7 +49,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>pauseDuration</key>
-					<integer>20</integer>
+					<integer>1</integer>
 					<key>pauseUnit</key>
 					<integer>0</integer>
 				</dict>
@@ -170,7 +170,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/bin/bash $HOME/Pictures/bing-wallpaper.sh</string>
+					<string>/bin/bash $HOME/Applications/bing-wallpaper/bing-wallpaper.sh</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -333,7 +333,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>pauseDuration</key>
-					<integer>10</integer>
+					<integer>1</integer>
 					<key>pauseUnit</key>
 					<integer>0</integer>
 				</dict>
@@ -583,7 +583,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:805.000000</string>
+				<string>529.000000:625.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -721,47 +721,56 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGYWJYJHZlcnNpb25Y
+					YnBsaXN0MDDUAQIDBAUGd3hYJHZlcnNpb25Y
 					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlRYXF5V
-					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
-					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
-					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
-					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
-					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
-					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
-					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
-					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
-					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
-					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
-					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
-					Njc4WU5TS2V5UGF0aIALEAqAClphbnlDb250
-					ZW500iorOzxfEBxOU0tleVBhdGhTcGVjaWZp
-					ZXJFeHByZXNzaW9uozsuL9IqKz4/Xk5TTXV0
-					YWJsZUFycmF5oz5AL1dOU0FycmF50iorQkNf
-					EBNOU0tleVBhdGhFeHByZXNzaW9upEJELi9f
-					EBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNGHwtH
-					SElfEA9OU0NvbnN0YW50VmFsdWWADxAAgBBQ
-					0iorTE1fEBlOU0NvbnN0YW50VmFsdWVFeHBy
-					ZXNzaW9uo0wuL9QLT1BRUkgjU1pOU01vZGlm
-					aWVyV05TRmxhZ3NeTlNPcGVyYXRvclR5cGWA
-					EhBj0iorVVZfEBVOU0luUHJlZGljYXRlT3Bl
-					cmF0b3KjVVcvXxATTlNQcmVkaWNhdGVPcGVy
-					YXRvctIqK1laXxAVTlNDb21wYXJpc29uUHJl
-					ZGljYXRlo1lbL1tOU1ByZWRpY2F0ZdIqK0Bd
-					okAv0iorX2BfEBNOU0NvbXBvdW5kUHJlZGlj
-					YXRlo19bL18QD05TS2V5ZWRBcmNoaXZlctFj
-					ZFRyb290gAEACAARABoAIwAtADIANwBQAFYA
-					XQB3AIkAkACSAJQAlgCbAKYAqACqAKwAtQDJ
-					ANwA8gD0APYA+AD6AQUBDwEeATEBPQE/AUEB
-					QwFFAUcBVAFZAVsBYAFrAXQBhwGLAZgBoQGm
-					AagBqgGsAbMBvQG/AcEBwwHOAdMB8gH2AfsC
-					CgIOAhYCGwIxAjYCTQJUAmYCaAJqAmwCbQJy
-					Ao4CkgKbAqYCrgK9Ar8CwQLGAt4C4gL4Av0D
-					FQMZAyUDKgMtAzIDSANMA14DYQNmAAAAAAAA
-					AgEAAAAAAAAAZQAAAAAAAAAAAAAAAAAAA2g=
+					oK8QHgcIDxQcJicpMDQ5Oj1BRUpVVldYWVpb
+					X2JoaW5ydFUkbnVsbNMJCgsMDQ5fEBdOU0Nv
+					bXBvdW5kUHJlZGljYXRlVHlwZV8QD05TU3Vi
+					cHJlZGljYXRlc1YkY2xhc3MQAYACgB3SEAsR
+					E1pOUy5vYmplY3RzoRKAA4Ac1AsVFhcYGRob
+					XxARTlNSaWdodEV4cHJlc3Npb25fEBBOU0xl
+					ZnRFeHByZXNzaW9uXxATTlNQcmVkaWNhdGVP
+					cGVyYXRvcoAbgA6ABIAY1R0eHyALISIjJCVZ
+					TlNPcGVyYW5kXk5TU2VsZWN0b3JOYW1lXxAQ
+					TlNFeHByZXNzaW9uVHlwZVtOU0FyZ3VtZW50
+					c4AGgAUQA4AIgA1cdmFsdWVGb3JLZXk60h8L
+					DCiAB9IqKywtWiRjbGFzc25hbWVYJGNsYXNz
+					ZXNfEBBOU1NlbGZFeHByZXNzaW9uoywuL1xO
+					U0V4cHJlc3Npb25YTlNPYmplY3TSEAsxM6Ey
+					gAmADNMLHzU2NzhZTlNLZXlQYXRogAsQCoAK
+					WmNyZWF0ZURhdGXSKis7PF8QHE5TS2V5UGF0
+					aFNwZWNpZmllckV4cHJlc3Npb26jOy4v0ior
+					Pj9eTlNNdXRhYmxlQXJyYXmjPkAvV05TQXJy
+					YXnSKitCQ18QE05TS2V5UGF0aEV4cHJlc3Np
+					b26kQkQuL18QFE5TRnVuY3Rpb25FeHByZXNz
+					aW9u00YfC0dISV8QD05TQ29uc3RhbnRWYWx1
+					ZYAPEACAF9NLEAtMUFRXTlMua2V5c6NNTk+A
+					EIARgBKjUVJTgBOAFIAVgBZVdmFsdWVcY2Fs
+					ZW5kYXJVbml0XXByZWRpY2F0ZVR5cGUQBxAQ
+					EAnSKitcXV8QE05TTXV0YWJsZURpY3Rpb25h
+					cnmjXF4vXE5TRGljdGlvbmFyedIqK2BhXxAZ
+					TlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNg
+					Li/UHmMLZGVIZmdaTlNNb2RpZmllcl5OU09w
+					ZXJhdG9yVHlwZYAZgBoQC18QJGlzTm90V2l0
+					aGluTGFzdENvdW50T2ZDYWxlbmRhclVuaXRz
+					OtIqK2prXxAZTlNDdXN0b21QcmVkaWNhdGVP
+					cGVyYXRvcqNsbS9fEBlOU0N1c3RvbVByZWRp
+					Y2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVP
+					cGVyYXRvctIqK29wXxAVTlNDb21wYXJpc29u
+					UHJlZGljYXRlo29xL1tOU1ByZWRpY2F0ZdIq
+					K0BzokAv0iordXZfEBNOU0NvbXBvdW5kUHJl
+					ZGljYXRlo3VxL18QD05TS2V5ZWRBcmNoaXZl
+					ctF5elRyb290gAEACAARABoAIwAtADIANwBY
+					AF4AZQB/AJEAmACaAJwAngCjAK4AsACyALQA
+					vQDRAOQA+gD8AP4BAAECAQ0BFwEmATkBRQFH
+					AUkBSwFNAU8BXAFhAWMBaAFzAXwBjwGTAaAB
+					qQGuAbABsgG0AbsBxQHHAckBywHWAdsB+gH+
+					AgMCEgIWAh4CIwI5Aj4CVQJcAm4CcAJyAnQC
+					ewKDAocCiQKLAo0CkQKTApUClwKZAp8CrAK6
+					ArwCvgLAAsUC2wLfAuwC8QMNAxEDGgMlAzQD
+					NgM4AzoDYQNmA4IDhgOiA7gDvQPVA9kD5QPq
+					A+0D8gQIBAwEHgQhBCYAAAAAAAACAQAAAAAA
+					AAB7AAAAAAAAAAAAAAAAAAAEKA==
 					</data>
 					<key>searchPath</key>
 					<string>~/Pictures/bing-wallpapers</string>
@@ -840,7 +849,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:1393.000000</string>
+				<string>529.000000:1033.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -895,7 +904,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>replaceExisting</key>
-					<false/>
+					<true/>
 					<key>toDirectory</key>
 					<string>~/Pictures/bing-wallpapers-old</string>
 				</dict>
@@ -960,7 +969,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:1676.000000</string>
+				<string>529.000000:1136.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -970,47 +979,47 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2CE9C830-3C09-41BD-AF52-C607BA212547</key>
+		<key>2E6853BE-56C8-49E1-B27B-352894553FA8</key>
 		<dict>
 			<key>from</key>
-			<string>D647801C-5923-4984-BD2C-56F6BCBA0EC2 - D647801C-5923-4984-BD2C-56F6BCBA0EC2</string>
-			<key>to</key>
 			<string>E742D269-CF16-4CAB-B123-A4676EC82CBE - E742D269-CF16-4CAB-B123-A4676EC82CBE</string>
-		</dict>
-		<key>457A3893-78D1-4B98-AEC4-37C97B069405</key>
-		<dict>
-			<key>from</key>
+			<key>to</key>
 			<string>4A2E4299-6568-4DA1-833B-39995EDCEEA4 - 4A2E4299-6568-4DA1-833B-39995EDCEEA4</string>
-			<key>to</key>
-			<string>32CAA320-DD23-4925-8ABF-7AAA7E1F7279 - 32CAA320-DD23-4925-8ABF-7AAA7E1F7279</string>
 		</dict>
-		<key>52106FFC-D156-46E7-9480-9D6D1BC0EBC3</key>
-		<dict>
-			<key>from</key>
-			<string>397EA31F-B5F6-40CA-B6DA-C54F2020406B - 397EA31F-B5F6-40CA-B6DA-C54F2020406B</string>
-			<key>to</key>
-			<string>D647801C-5923-4984-BD2C-56F6BCBA0EC2 - D647801C-5923-4984-BD2C-56F6BCBA0EC2</string>
-		</dict>
-		<key>5C50D65C-DE8E-4034-A47C-1BA67114339C</key>
-		<dict>
-			<key>from</key>
-			<string>94A82BB0-F454-4683-AE5C-1B44FCB19544 - 94A82BB0-F454-4683-AE5C-1B44FCB19544</string>
-			<key>to</key>
-			<string>397EA31F-B5F6-40CA-B6DA-C54F2020406B - 397EA31F-B5F6-40CA-B6DA-C54F2020406B</string>
-		</dict>
-		<key>5F859DC2-38DC-4E41-9572-0F3B2736760B</key>
+		<key>4688F0EB-879F-4A97-AF75-A87E1AB1D95E</key>
 		<dict>
 			<key>from</key>
 			<string>32CAA320-DD23-4925-8ABF-7AAA7E1F7279 - 32CAA320-DD23-4925-8ABF-7AAA7E1F7279</string>
 			<key>to</key>
 			<string>618482D0-7F15-4483-89FA-40974CB5EAB0 - 618482D0-7F15-4483-89FA-40974CB5EAB0</string>
 		</dict>
-		<key>D4C158FD-83EB-49B0-894D-E713E878EBA9</key>
+		<key>588C0706-89F7-4C7C-9AF6-2249C3985179</key>
 		<dict>
 			<key>from</key>
-			<string>E742D269-CF16-4CAB-B123-A4676EC82CBE - E742D269-CF16-4CAB-B123-A4676EC82CBE</string>
+			<string>D647801C-5923-4984-BD2C-56F6BCBA0EC2 - D647801C-5923-4984-BD2C-56F6BCBA0EC2</string>
 			<key>to</key>
+			<string>E742D269-CF16-4CAB-B123-A4676EC82CBE - E742D269-CF16-4CAB-B123-A4676EC82CBE</string>
+		</dict>
+		<key>5D90A235-3D8E-48F1-A854-37F1EF9A3B39</key>
+		<dict>
+			<key>from</key>
+			<string>94A82BB0-F454-4683-AE5C-1B44FCB19544 - 94A82BB0-F454-4683-AE5C-1B44FCB19544</string>
+			<key>to</key>
+			<string>397EA31F-B5F6-40CA-B6DA-C54F2020406B - 397EA31F-B5F6-40CA-B6DA-C54F2020406B</string>
+		</dict>
+		<key>8341E5A8-E9F7-4FFC-8BDD-9BB5DB11D828</key>
+		<dict>
+			<key>from</key>
+			<string>397EA31F-B5F6-40CA-B6DA-C54F2020406B - 397EA31F-B5F6-40CA-B6DA-C54F2020406B</string>
+			<key>to</key>
+			<string>D647801C-5923-4984-BD2C-56F6BCBA0EC2 - D647801C-5923-4984-BD2C-56F6BCBA0EC2</string>
+		</dict>
+		<key>C4907875-E88A-46C6-A1AB-A65199093B96</key>
+		<dict>
+			<key>from</key>
 			<string>4A2E4299-6568-4DA1-833B-39995EDCEEA4 - 4A2E4299-6568-4DA1-833B-39995EDCEEA4</string>
+			<key>to</key>
+			<string>32CAA320-DD23-4925-8ABF-7AAA7E1F7279 - 32CAA320-DD23-4925-8ABF-7AAA7E1F7279</string>
 		</dict>
 	</dict>
 	<key>variables</key>

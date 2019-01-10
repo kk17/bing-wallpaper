@@ -28,8 +28,19 @@ directory, and configure to taste.
 * To have the script run everyday automatically you will need to setup launchd
 (Mac only, for Ubuntu see below). I have provided a sample plist file, found in
 the Tools directory, which can be copied to **$HOME/Library/LaunchAgents** and
-loaded with the command
-  `launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist`
+loaded with the command:
+
+```bash
+cp ./Tools/com.ideasftw.bing-wallpaper.plist $HOME/Library/LaunchAgents/
+launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist
+```
+
+```bash
+cp ./Tools/com.ideasftw.bing-wallpaper.plist $HOME/Library/LaunchAgents/
+launchctl unload $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist
+launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist
+```
+
 Modify the plist as needed to point to **bing-wallpaper.sh**. For more
 information on configuring launchd [see here](
 http://blog.ideasftw.com/2013/02/run-script-from-launchd-instead-of-cron.html).
