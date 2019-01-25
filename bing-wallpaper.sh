@@ -5,7 +5,7 @@ PICTURE_DIR="$HOME/Pictures/bing-wallpapers/"
 
 mkdir -p $PICTURE_DIR
 
-urls=( $(curl -s http://www.bing.com | sed -En 's/.*bgImg" src="(.*)/\1/p' | cut -d\" -f1) )
+urls=( $(curl -s http://www.bing.com | sed -En 's/.*bgLink" rel="preload" href="(.*)/\1/p' | cut -d\" -f1) )
 
 for p in ${urls[@]}; do
     echo $p
