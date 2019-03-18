@@ -9,7 +9,7 @@ urls=( $(curl -s http://www.bing.com | sed -En 's/.*bgLink" rel="preload" href="
 
 for p in ${urls[@]}; do
     echo $p
-    filename=$(echo $p|sed -e "s/.*\/\(.*\)/\1/")
+    filename=$(echo $p | sed  -En "s|/th\?id=(.*\.jpg)&amp;rf.+|\1|p")
     if [ ! -f $PICTURE_DIR/$filename ]; then
         echo "Downloading: $filename ..."
         curl -Lo "$PICTURE_DIR/$filename" "http://www.bing.com/${p}"
