@@ -1,0 +1,1 @@
+/Users/kk/Documents/reposities/bing-wallpaper/Tools/BingWallpaper.app

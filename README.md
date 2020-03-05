@@ -31,6 +31,11 @@ the Tools directory, which can be copied to **$HOME/Library/LaunchAgents** and
 loaded with the command:
 
 ```bash
+ln -s `pwd`/Tools/BingWallpaper.app /Applications/BingWallpaper.app
+ln -s `pwd`/bing-wallpaper.sh /Applications/bing-wallpaper.sh
+```
+
+```bash
 cp ./Tools/com.ideasftw.bing-wallpaper.plist $HOME/Library/LaunchAgents/
 launchctl load $HOME/Library/LaunchAgents/com.ideasftw.bing-wallpaper.plist
 ```

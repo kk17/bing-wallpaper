@@ -8,7 +8,7 @@
 		<array>
 			<string>/usr/bin/open</string>
 			<string>-W</string>
-			<string>/Users/zhike/Applications/bing-wallpaper/Tools/BingWallpaper.app</string>
+			<string>/Applications/BingWallpaper.app</string>
 		</array>
 		<key>StandardErrorPath</key>
 		<string>/tmp/com.ideasftw.bing-wallpaper.plist.err</string>
