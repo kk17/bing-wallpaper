@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
-# set -x
+# set -x 
 
 PICTURE_DIR="$HOME/Pictures/bing-wallpapers/"
-
+OLD_PICTURE_DIR="$HOME/Pictures/bing-wallpapers-old/"
+if [ ! -d $PICTURE_DIR ]; then
+    midir -p $PICTURE_DIR
+fi
+if [ ! -d $OLD_PICTURE_DIR ]; then
+    midir -p $OLD_PICTURE_DIR
+fi
 mkdir -p $PICTURE_DIR
 
 urls=( $(curl -s http://www.bing.com | sed -En 's/.*<link rel="preload" href="(.*)" as="image" id="preloadBg".*/\1/p' | cut -d\" -f1) )
